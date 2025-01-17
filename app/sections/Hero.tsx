@@ -24,13 +24,7 @@ export default function Hero({
         {...fade}
         animate={showContent && fade.animate}
         className="linear absolute h-full w-full top-0 left-0 -z-20"
-      >
-        {/* <Image
-          src={IMGS.bg}
-          alt="stars"
-          className="w-full h-full object-cover"
-        /> */}
-      </motion.div>
+      ></motion.div>
       <div className="radial absolute h-full w-full top-0 left-0 -z-30" />
 
       <StarsCanvas showContent={showContent} />
@@ -66,7 +60,11 @@ export default function Hero({
         </div>
       </div>
 
-      <Image src={IMGS.moon} alt="moon" className="w-[6vw] place-self-start " />
+      <Image
+        src={IMGS.moon}
+        alt="moon"
+        className="w-[6vw] place-self-start mb-20"
+      />
     </motion.div>
   );
 }
