@@ -40,7 +40,7 @@ export const rolling = {
     rotate: [0, 360],
   },
   transition: {
-    duration: 2,
+    duration: 1,
     ease: "linear",
   },
 };
