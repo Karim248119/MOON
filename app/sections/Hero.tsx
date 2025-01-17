@@ -63,7 +63,7 @@ export default function Hero({
       <Image
         src={IMGS.moon}
         alt="moon"
-        className="w-[6vw] place-self-start mb-20"
+        className="w-[6vw] place-self-start -mt-20"
       />
     </motion.div>
   );
